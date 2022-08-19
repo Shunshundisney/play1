@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>プルート監視局</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/css/reset.css">
-<link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/css/5-9.css">
-<link rel="stylesheet" type="text/css" href="index.css">
+  <meta charset="utf-8">
+  <title>disney_oudon</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="h.css">
 </head>
 <body>
-<div id="particles-js"></div>
-<div id="wrapper">
-  <div class="profile_box">
-    <div class="box-title">プロフィール</div>
-    <div class="profile_center">
-    <img alt="" src="puluto.jpg" class="profile_figure">
-    <div class="profile_name">プルート</div></div>
-    <p>ミッキーに使える忠実な犬やってます</p>
-    <ul>
-    <li>出身地：トゥーンタウン</li>
-    <li>趣味：前説</li>
-    </ul>
-  </div>
-</div>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/js/5-9.js"></script>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <div id="particles-js"></div>
+    <div id="wrapper">
+        <div class="base">
+            <div id="scaler" class="scaler">
+            <section class="section section-1" data-z="0">
+                <img src="picture/01.jpg">
+                <h2>プルート</h2>
+                <p>ミッキーの忠実な愛犬</p>
+                <li>出身地：トゥーンタウン</li>
+                <li>趣味：前説</li>
+            </section>
+            <section class="section section-2" data-z="5">
+                <h>紹介することが</h>
+            </section>
+            <section class="section section-3" data-z="10">
+                <h>思いつきません</h>
+            </section>
+            <section class="section section-4" data-z="15">
+               <h>プルートに関する情報</h>
+            </section>
+            <section class="section section-5" data-z="20">
+                <h1>待ってます</h1>
+                <br><img src="picture/puluto.jpg"width="auto" height="200" >
+            </section>
+            </div>
+        </div>
+    <!--/wrapper--></div> 
+  <div id="scroll" class="scroll"></div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</body>
 </body>
 </html>
